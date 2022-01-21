@@ -15,9 +15,9 @@ while True:
     if(answer == equal):
         break
     elif(answer == bigger):
-        MaxNumber = number
+        MaxNumber = number - 1
     elif(answer == smaller):
-        MinNumber = number
+        MinNumber = number + 1
 
 
 print("Victory")
