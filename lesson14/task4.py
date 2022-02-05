@@ -18,10 +18,10 @@ def check_number(input_number):
 
 #number = 13
 #print(check_number(number))
-
+test_number = int(input("Введите число: "))
 try:
-    test_number = int(input("Введите число: "))
-    print(check_number(test_number))
+    result = check_number(test_number)
 except ValueError:
     print("введено число 13")
-
+else:
+    print(result)
