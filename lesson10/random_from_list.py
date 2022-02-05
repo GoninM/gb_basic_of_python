@@ -14,6 +14,7 @@ def GetRndElement(in_list):
     return None
 
 
-Some_list = [1, 2, 3, 4, 6, 7, 3, 4, 6, 99]
-EmptyList = []
-print(GetRndElement(EmptyList))
+if __name__ == '__main__':
+    Some_list = [1, 2, 3, 4, 6, 7, 3, 4, 6, 99]
+    EmptyList = []
+    print(GetRndElement(EmptyList))
