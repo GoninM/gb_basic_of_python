@@ -6,7 +6,7 @@
 list_1 = ["яблоко", "апельсин", "мандарин", "банан"]
 list_2 = ["дыня", "яблоко", "арбуз", "слива", "мандарин", "банан"]
 
-result = [fruite for fruite in list_1 if list_2.count(fruite)]
+result = [fruite for fruite in list_1 if fruite in list_2]
 
 print(result)
 

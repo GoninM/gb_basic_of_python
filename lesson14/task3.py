@@ -12,9 +12,10 @@ result = [1, -3, 2]
      Не забудьте включить туда отрицательные числа. 10-20 чисел в списке вполне достаточно.
 
 """
+import math
 
 def list_to_square(input_list):
-    result = [number if number < 0 else number**2 for number in input_list ]
+    result = [number if number < 0 else math.sqrt(number) for number in input_list]
     return result
 
 test_list = [-100, 0, -30, 23, 1, 4, 98, -1000]
